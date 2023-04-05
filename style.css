@@ -9,3 +9,40 @@ body {
     width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tile {
+    width: 100%;
+    background-color: blue;
+    margin: 7px;
+    border-radius: 17px;
+    height: 56px;
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
